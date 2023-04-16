@@ -1,0 +1,8 @@
+node_modules
+build
+src/config/abi/types
+.next
+.eslintrc
+.vscode/settings.json
+out/
+public/dist

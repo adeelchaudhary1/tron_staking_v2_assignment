@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/types/*": ["./utils/types/*"],
+      "@/functions/*": ["./utils/functions/*"]
+    },
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "incremental": true,
+    "types": ["jquery"],
+    "sourceMap": false
+  },
+  "exclude": ["node_modules", "cypress", "./node_modules/*"],
+  "include": ["next-env.d.ts", "./src/**/*.ts", "./src/**/*.tsx"]
+}
